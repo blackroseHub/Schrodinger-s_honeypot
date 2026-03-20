@@ -83,13 +83,14 @@ python terminal.py
 **Valid Test Commands**
 
 Try acting like an attacker once the terminal boots:
+```bash
+whoami                                               #Identity check
 
-whoami #Identity check
+ls -la /var/www/html                                 #Stateful file listing
 
-ls -la /var/www/html #Stateful file listing
+cat /etc/passwd                                      #Mock system files
 
-cat /etc/passwd #Mock system files
+echo "hacked" > deface.html && ls                    #Logic chain persistence
 
-echo "hacked" > deface.html && ls #Logic chain persistence
-
-Disclaimer: Built for cybersecurity research, Red/Blue team training, and defensive deployment. Monitor your honeypots responsibly.
+```
+🚨 WARNING 🚨: BUILT FOR CYBERSECURITY RESEARCH, RED/BLUE TEAM TRAINING, AND DEFENSIVE DEPLOYMENT. MONITOR YOUR HONEYPOTS RESPONSIBLY.

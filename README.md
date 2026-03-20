@@ -47,13 +47,15 @@ This repository includes the extraction and training pipeline used to build the 
 **1. Clone & Install**
 ```bash
 git clone [https://github.com/Alan-Jyothis-Thomas/Schrodinger-Honeypot.git](https://github.com/Alan-Jyothis-Thomas/Schrodinger-Honeypot.git)
+
 cd Schrodinger-Honeypot
+
 pip install openai
 
 **2. Download the Engine**
-Download the custom GGUF model (Schrodinger_Linux_Kernel.gguf) from Hugging Face here:
+Download the custom GGUF model (Schrodinger_Linux_Kernel.gguf) 
 
-https://huggingface.co/BlackRoseHF/Schrodinger-Linux-Kernel/resolve/main/Schrodinger_Linux_Kernel.gguf?download=true
+[Schrodinger-Linux-Kernel] (https://huggingface.co/BlackRoseHF/Schrodinger-Linux-Kernel/resolve/main/Schrodinger_Linux_Kernel.gguf?download=true).
 
 **3. Setup the Local Server**
 

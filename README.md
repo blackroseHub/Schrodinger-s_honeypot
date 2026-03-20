@@ -45,7 +45,7 @@ This repository includes the extraction and training pipeline used to build the 
 ## 🛠️ Quick Start
 
 **1. Clone & Install**
-```bash
+bash
 git clone [https://github.com/Alan-Jyothis-Thomas/Schrodinger-Honeypot.git](https://github.com/Alan-Jyothis-Thomas/Schrodinger-Honeypot.git)
 
 cd Schrodinger-Honeypot

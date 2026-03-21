@@ -3,7 +3,7 @@
 *A neural-backed, hallucinated Linux Operating System designed for offensive deception and prolonged adversary engagement.*
 
 <p align="center">
-  <img src="logo.png" alt="Schrodinger's Trap Logo" width="300">
+  <img src="docs\logo.png" alt="Schrodinger's Trap Logo" width="300">
 </p>
 
 ## 🛑 The Problem: Why Traditional Honeypots Fail
@@ -23,6 +23,11 @@ Trained extensively on complex Linux mathematics, bash logic, and terminal state
 3. **State Persistence:** If an attacker runs `touch backdoor.sh && chmod +x backdoor.sh`, the LLM updates its internal state. The file will be there when they run `ls -la`.
 
 ## 🕷️ Where it Shines: Active Deception
+
+<p align="center">
+  <img src="docs/test1.png" alt="Attack Output">
+</p>
+
 Traditional honeypots are passive. Schrodinger's Trap is **active**.
 
 Because the OS is generative, it can dynamically adapt to keep the attacker engaged. If the hacker realizes they are in a dead-end and searches for high-value targets (`cat /root/.ssh/id_rsa`), the LLM doesn't just say "File not found." 
